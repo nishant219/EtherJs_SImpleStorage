@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "fs-extra": "^11.1.0",
+    "solc": "^0.8.17"
+  },
+  "name": "etherjssimpleproject",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "scripts": {
+    "start": "solcjs --bin --abi --include-path node_modules/ --base-path . SimpleStorage.sol"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
